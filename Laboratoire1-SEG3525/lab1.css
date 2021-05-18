@@ -1,0 +1,54 @@
+#header{
+	align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+
+#header_text{
+	align-content: center;
+	color: black;
+}
+
+#image {
+	margin-bottom: 50px;
+}
+
+#image_content {
+	width: 600px;
+	height 700px;
+}
+
+#form{
+	align-content: center;
+	margin-left: 30px;
+	margin-bottom: 50px;
+}
+
+#personal_information{
+	margin: 30px;
+	background-color: lightgray;
+}
+
+#personal_opinion{
+	margin: 30px;
+	background-color: lightgray;
+}
+
+#submit{
+	margin: 10px;
+}
+
+
+
+body {
+	align-content: center;
+	background-color: powderblue;
+}
+
+footer {
+
+}
+
+.component {
+	margin: 4px;
+}

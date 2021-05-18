@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="Lab1.css"/>
+	<title>Survey</title>
+	<div align="center" id="header">
+		<h1 id="header_text"> What do you think about this website design?</h1>
+	 </div>
+
+	</head>
+
+	<body>
+		<div align="center" id="image"> 
+			<a href="https://shop.bushtukah.com/" target= "_blank">
+				<img id="image_content" src="website.jpg" alt="website">
+			</a>
+			<h4> Click on the image to access the website </h4>
+		</div>
+
+		<div align="center" id="form">
+			<form action="index.php" name="questionnaire_form" method="POST">
+				<div id="personal_information" color="blue">
+					<h3> Personal Information</h3>
+					<div class="component">
+						First name: <input type="text" name="firstname"><br>
+					</div>
+					<div>
+						Last name: <input type="text" name="lastname"><br>
+					</div>
+
+
+					Are you:<br>
+					<div class="component">
+						<input type="radio" name="sex" value="male">Male<br>
+					</div>
+					<div class="component">
+						<input type="radio" name="sex" value="female">Female<br>
+					</div>
+				</div>
+
+				<div id="personal_opinion">
+					<h3> Personal Opinion</h3>
+					What do you like about the page:<br>
+					<div class="component">
+						<input type="checkbox" name="colors" value="colors">Colors<br>
+					</div>
+					<div class="component">
+						<input type="checkbox" name="pictures" value="pictures">Pictures<br>
+					</div>
+					<div class="component">
+						<input type="checkbox" name="nothing" value="nothing">Nothing<br>
+					</div>
+
+
+					What would you improve?<br>
+
+
+					<div class="component">
+					<select name="favorite">
+						<option value=null selected="selected"></option><br>
+						<option value="colors">Colors</option>
+						<option value="prices">Prices</option>
+						<option value="pictures">Pictures</option><
+						<option value="nothing">Nothing</option><
+					</select><br>
+					</div>
+
+				</div>
+
+				Comments:<br>
+					<textarea rows="5" cols="30"></textarea><br>
+
+				<div id="submit">
+					<input type="submit" value="submit the survey"/>
+				</div>
+
+			</form>
+		</div>
+		<footer align="end">
+			Site created by: Alex
+		</footer>
+	</body>
+</html>
